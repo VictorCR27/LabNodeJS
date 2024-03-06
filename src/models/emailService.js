@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 
-// Configuración del transporte para nodemailer
+// Configuración del nodemailer
 const transporter = nodemailer.createTransport({
     service:'outlook',
     auth: {
